@@ -1,0 +1,28 @@
+body{
+    padding-top: 70px; 
+    font-family: sans-serif;
+    padding: auto;
+}
+
+#hero { 
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(rgba(255, 255, 255, .95), rgba(255,255,255,.65)),
+    url(../images/background.jpeg) ;
+    min-height: 70vh;
+  }
+
+#about, #pricing { 
+    padding-top: 70px;
+    padding-bottom: 20px;
+    min-height:100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-height: 80vh;
+  }
+
+svg {
+  fill: rgba(0, 90, 250, 0.5);
+  padding: 20px;
+}
