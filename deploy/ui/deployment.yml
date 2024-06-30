@@ -13,6 +13,7 @@ spec:
       labels:
         app.kubernetes.io/name: finops-ui
     spec:
+      imagePullPolicy: Always
       containers:
       - name: ui 
         image: ghcr.io/bolb23/finops-ui:main
